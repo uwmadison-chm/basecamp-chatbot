@@ -17,9 +17,18 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-
+    "certifi>=2024.7.4",
+    "charset-normalizer>=3.3.2",
+    "docopt-ng>=0.9.0",
+    "idna>=3.7",
+    "requests==2.32.3",
+    "urllib3==2.2.2",
 ]
 
 [project.urls]
 Homepage = "https://github.com/uwmadison-chm/basecamp-chatbot"
 Issues = "https://github.com/uwmadison-chm/basecamp-chatbot/issues"
+
+[project.scripts]
+bc_post_from_str = "basecamp_chatbot.post_string:_main"
+bc_post_from_file = "basecamp_chatbot.post_file:_main"
