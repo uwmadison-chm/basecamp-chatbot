@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "basecamp_chatbot"
+version = "2024.8.22.1"
+authors = [
+    { name="Nicholas Vanhaute", email="nvanhaute@wisc.edu" },
+]
+description = "A Python library for the Basecamp 3 chatbot API"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/uwmadison-chm/basecamp-chatbot"
+Issues = "https://github.com/uwmadison-chm/basecamp-chatbot/issues"
