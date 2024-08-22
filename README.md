@@ -13,7 +13,7 @@ The library officially supports Python 3.12+.
 
 ## Command line usage
 
-You can post a string or the content of a file to your chatbot with the following commands:
+You can post a string or the contents of a file to your chatbot with the following commands:
 
 ```console
 $ bc_post_from_str <chatbot_url> <message>
