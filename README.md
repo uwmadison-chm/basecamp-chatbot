@@ -9,7 +9,7 @@ This library is available on PyPI:
 $ pip install basecamp_chatbot
 ```
 
-The library officially supports Python 3.12+.
+The library officially supports Python 3.8+.
 
 ## Command line usage
 
