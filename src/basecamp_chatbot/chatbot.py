@@ -3,6 +3,7 @@ import logging
 from basecamp_chatbot.rest_adapter import RestAdapter
 from pathlib import Path
 
+
 class Chatbot:
     def __init__(
         self,
