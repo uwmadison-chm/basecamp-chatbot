@@ -40,7 +40,6 @@ class RestAdapter:
         except requests.exceptions.RequestException as e:
             self._logger.error(msg=(str(e)))
             raise BasecampApiException("Request failed") from e
-        # Deserialize JSON output to Python object, or return failed Result on exception
 
         is_success = response.status_code == 201
         log_line = f"{log_line_pre}, success={is_success}, status_code={response.status_code}, message={response.reason}"
